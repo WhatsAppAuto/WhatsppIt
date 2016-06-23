@@ -13,6 +13,7 @@ To Make this App working :
 Future planned updates:
 1.Improve accuracy of Searching of contacts
 2.Sending messages to multiple contacts with custom messages
+3. Handling of various scenarios with change of timeouts
 
 
 Note : Using an automated system or an unauthorized / unofficial client application to send messages through WhatsApp. Use this Script with at your risk.For further info visit https://www.whatsapp.com/faq/en/general/23154266
