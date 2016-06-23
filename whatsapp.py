@@ -1,10 +1,13 @@
 from selenium import webdriver
-chromedriver="E:\\chromedriver.exe"
+
+chromedriver="E:\\chromedriver.exe"       #Comment if you want to use Firefox
 import selenium.webdriver as webdriver
 import selenium.webdriver.support.ui as ui
 import os
-os.environ["webdriver.chrome.driver"]=chromedriver
-driver=webdriver.Chrome(chromedriver)
+# driver = webdriver.Firefox()  # Uncomment if you want to use Firefox instead of Chrome
+
+os.environ["webdriver.chrome.driver"]=chromedriver     #Comment if you want to use Firefox
+driver=webdriver.Chrome(chromedriver)                 #Comment if you want to use Firefox
 driver.get("http://web.whatsapp.com")
 wait = ui.WebDriverWait(driver, 60) # timeout after 10 seconds
 results = wait.until(lambda driver:driver.find_element_by_css_selector("#pane-side > div > div > div > div:nth-child(1) > div > div > div.chat-body"))
