@@ -18,4 +18,4 @@ Future planned updates:
 
 Note : Using an automated system or an unauthorized / unofficial client application to send messages through WhatsApp. Use this Script with at your risk.For further info visit https://www.whatsapp.com/faq/en/general/23154266
 
-
+Tags: Bulk whatsapp messages marketing
